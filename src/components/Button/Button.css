@@ -1,0 +1,43 @@
+button {
+  font-size: 1.4rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 12px;
+  background-color: #ffffff;
+  color: #2c3e50;
+  box-shadow:
+    2px 2px 6px rgba(0, 0, 0, 0.1),
+    -2px -2px 6px rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+  transition:
+    background 0.2s,
+    transform 0.1s;
+}
+
+button:hover {
+  background-color: #e0e3e7;
+  transform: scale(1.03);
+}
+
+.numberBtn {
+  background-color: #ffffff;
+}
+
+.symbolBtn {
+  background-color: #aac0fb;
+  color: #1d3557;
+}
+
+.resetBtn {
+  background-color: #f78d8d;
+  color: #6b0000;
+}
+
+.equalBtn {
+  background-color: #a9fb86;
+  color: #000000;
+}
+
+.double-width {
+  grid-column: span 2;
+}
