@@ -20,9 +20,9 @@ function App() {
     "2",
     "1",
     "-",
-    ".",
     "0",
     "=",
+    ".",
   ];
 
   const [display, setDisplay] = useState("0");
@@ -37,7 +37,7 @@ function App() {
 
     if (
       (symb === "C" && (index === 0 || index === 1)) ||
-      (symb === "=" && (index === 16 || index === 17)) ||
+      (symb === "=" && (index === 15 || index === 16)) ||
       (symb === "+" && (index === 1 || index === 2))
     ) {
       baseClass += " double-width";
